@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pk>
+    <component>
+        <tier0 file="Output/die.xml">
+        </tier0>
+        <HeatSink type="HeatSink">
+            <component></component>
+            <parameter>
+                    <ThermalConductivity>400.0</ThermalConductivity>
+                    <VolumetricHeatCapacity>3.55e6</VolumetricHeatCapacity>
+            </parameter>
+            <position>
+                <xCuboid>-1.968750e-04</xCuboid>
+                <yCuboid>-1.968750e-04</yCuboid>
+                <zCuboid>2.6095e-05</zCuboid>
+                <lengthCuboid>5.90625e-04</lengthCuboid>
+                <widthCuboid>5.90625e-04</widthCuboid>
+                <heightCuboid>5e-5</heightCuboid>
+                <lengthFin>5.37e-05</lengthFin>
+                <widthFin>5.906243e-04</widthFin>
+                <heightFin>3.5e-4</heightFin>
+                <xstartFin>-1.70025e-04</xstartFin>
+                <ystartFin>9.84375e-05</ystartFin>
+                <xnumberFin>5</xnumberFin>
+                <ynumberFin>1</ynumberFin>
+                <xendFin>3.669e-04</xendFin>
+                <yendFin>9.84375e-05</yendFin>
+            </position>
+        </HeatSink>
+    </component>
+    <parameter>
+        <ThermalConductivity>1.000000e+02</ThermalConductivity>
+        <VolumetricHeatCapacity>1.750000e+06</VolumetricHeatCapacity>
+        <HeatTransferCoefficient>1.000000e+02</HeatTransferCoefficient>
+        <AmbientTemperature>3.180000e+02</AmbientTemperature>
+        <InitialTemperature>3.1800e+02</InitialTemperature>
+        <TimeStep>1.000000e-06</TimeStep>
+    </parameter>
+    <position>
+        <x>0.0e-03</x>
+        <y>0.0e-03</y>
+        <z>0.0e-03</z>
+        <length>0</length>
+        <width>0</width>
+        <height>0</height>
+    </position>
+</Pk>

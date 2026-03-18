@@ -1,0 +1,16 @@
+The files are modified copies from 3D example from Hotspot. We fix the mesh continuity problem in original ev3_3D floorplan. For example, 
+
+original:
+DTB_0_0	0.001033	0.000700	0.003100	0.002780
+DTB_1_0	0.001033	0.000700	0.004133	0.002780
+DTB_2_0	0.001033	0.000700	0.005167	0.002780
+
+our version:
+DTB_0_0	0.001033	0.000700	0.003100	0.002780
+DTB_1_0	0.001034	0.000700	0.004133	0.002780
+DTB_2_0	0.001033	0.000700	0.005167	0.002780
+
+Length of DTB_1_0 is changed from 0.001033 to 0.001034. Therefore, 0.001034 + 0.004133 = 0.005167, which is the start point of the next block. Otherwise, you will have a 0.000001 gap without any definition.
+
+created by Yi-Chung Chen, Scott Ladenheim, Milan Mihajlovic, and Vasilis F. Pavlidis
+School of Computer Science, University of Manchester
