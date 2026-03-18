@@ -2,16 +2,6 @@ The Manchester Thermal Analyzer is free software: you can redistribute it and/or
 
 Manchester Thermal Analyzer is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License (LGPL) for more details.
 
-Links to the licenses of the following external libraries utilized by the MTA are provided below:
-
-+ The MTA is implemented using the open-source deal.II finite element library distributed under the GNU Lesser General Public License. The license agreement can be found at https://www.dealii.org/license.html
-
-+ The solver routines used in the MTA rely on the open-source scientific computing library PETSc distributed under the 2-clause BSD license. The license agreement can be found at https://www.mcs.anl.gov/petsc/documentation/license.html
-
-+ Part of the XML parser framework utilized by the MTA calls the open-source TinyXML2 library distributed under the ZLib license. The license agreement can be found at http://grinninglizard.com/tinyxml2docs/index.html
-
-+ The MTA's parallel computations make use of the open-source library Metis distributed under Apache License Version 2.0. The license agreement can be found at http://glaros.dtc.umn.edu/gkhome/metis/metis/faq
-
 The full text of the GNU Lesser General Public License follows.
 
 
