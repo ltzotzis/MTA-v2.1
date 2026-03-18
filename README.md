@@ -4,7 +4,7 @@ A refresh of the Manchester Thermal Analyzer to keep up with dependencies and ne
 The two ways to use the MTA are described in the following sections.
 
 ## Apptainer container
-Allows for easy use, only required dependency being Apptainer. Great as a fallback option if having trouble compiling from source. One can either use the perl script normally, or to invoke the individual executables do 
+Allows for easy use, only required dependency being Apptainer. Great as a fallback option if having trouble compiling from source. One can either use the perl script normally, or to invoke the individual executables: 
 ```
 apptainer exec mta2.sif executablename
 ```
