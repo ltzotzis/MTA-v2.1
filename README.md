@@ -23,14 +23,14 @@ When compiling from source, there are two further options:
 
 The other executables are fully static and provided as binaries in all versions. If desired, they can also be compiled via the commands:
 + msh_gen:
-  - g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o
-  - g++ -static -std=c++11 -O3 -funroll-loops -o msh_gen msh_gen.cpp lib/tinyxml2.o
+  - `g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o`
+  - `g++ -static -std=c++11 -O3 -funroll-loops -o msh_gen msh_gen.cpp lib/tinyxml2.o`
 + pkxml:
-  -g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o
-  -g++ -static -std=c++11 -O3 -funroll-loops -o pkxml pkxml.cpp lib/tinyxml2.o
+  - `g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o`
+  - `g++ -static -std=c++11 -O3 -funroll-loops -o pkxml pkxml.cpp lib/tinyxml2.o`
 + diexml:
-  -g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o
-  -g++ -static -std=c++11 -O3 -funroll-loops -I/home/ycc/test/deflef -o diexml diexml.cpp lib/*.o
+  - `g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o`
+  - `g++ -static -std=c++11 -O3 -funroll-loops -I/home/ycc/test/deflef -o diexml diexml.cpp lib/*.o`
 
 
 
