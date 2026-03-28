@@ -1,7 +1,7 @@
 # MTA-v2.1
-A refresh of the Manchester Thermal Analyzer to keep up with dependencies and new support for GPU powered solvers. It can be used via the customizable perl script or via invoking the executables directly.
+An updated version of the Manchester Thermal Analyzer to keep up with dependencies and new support for GPU powered solvers. It can be used via the customizable perl script or via invoking the executables directly.
 
-I did not write most of this code, rather, I performed maintenance and added GPU acceleration support for the solvers. 
+ Maintenance has been performed and GPU acceleration support for the solvers has been added. 
 
 The two ways to use the MTA are described in the following sections.
 
