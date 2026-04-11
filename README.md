@@ -30,7 +30,7 @@ The other executables are fully static and provided as binaries in all versions.
   - `g++ -static -std=c++11 -O3 -funroll-loops -o pkxml pkxml.cpp lib/tinyxml2.o`
 + diexml:
   - `g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o`
-  - `g++ -static -std=c++11 -O3 -funroll-loops -I/home/ycc/test/deflef -o diexml diexml.cpp lib/*.o`
+  - `g++ -static -std=c++11 -O3 -funroll-loops -o diexml diexml.cpp lib/*.o`
 
 To use the GPU powered solvers, simply add the -GPU option when running the heat simulator executable.
 
