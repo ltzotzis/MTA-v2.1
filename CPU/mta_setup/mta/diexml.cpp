@@ -4,7 +4,7 @@
 // roo can be ouput only layer-like simulation without time step etc.
 
 //xml
-//#include "source/tinyxml2.h"
+//#include "tinyxml2.h"
 //xml
 
 /////////////////////////////////////
@@ -14,16 +14,16 @@
 
 
 //lef
-#include "source/lefrReader.hpp"
-#include "source/lefwWriter.hpp"
-#include "source/lefiDebug.hpp"
-#include "source/lefiEncryptInt.hpp"
-#include "source/lefiUtil.hpp"
+#include "lefrReader.hpp"
+#include "lefwWriter.hpp"
+#include "lefiDebug.hpp"
+#include "lefiEncryptInt.hpp"
+#include "lefiUtil.hpp"
 //lef
 
 //def
-#include "source/defrReader.hpp"
-#include "source/defiAlias.hpp"
+#include "defrReader.hpp"
+#include "defiAlias.hpp"
 //lef
 
 //tool
