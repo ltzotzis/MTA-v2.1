@@ -1,3 +1,6 @@
 [submodule "CPU/mta_setup/mta/lefdef"]
 	path = CPU/mta_setup/mta/lefdef
 	url = https://github.com/ltzotzis/lefdef
+[submodule "GPU/mta_setup/mta/lefdef"]
+	path = GPU/mta_setup/mta/lefdef
+	url = https://github.com/ltzotzis/lefdef
