@@ -6,7 +6,7 @@ MAKE = make
 .PHONY: all tinyxml msh_gen pkxml diexml lef def
 
 # Default build
-all: diexml
+all: msh_gen pkxml diexml
 
 
 # -----------------------
