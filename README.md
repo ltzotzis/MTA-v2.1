@@ -21,7 +21,7 @@ When compiling from source, there are two further options:
 + Pure CPU implementation. Skips the need for CUDA installation.
 + Implementation that can utilize GPU powered solvers. Can be useful for fine meshes/transient simulation with long power traces. Requires CUDA as an additional dependency.
 
-The other executables are fully static and provided as binaries in all versions. If desired, they can also be compiled via the commands:
+The other executables are fully static and provided as binaries in all versions. If desired, they can also be compiled via make or via the commands:
 + msh_gen:
   - `g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o`
   - `g++ -static -std=c++11 -O3 -funroll-loops -o msh_gen msh_gen.cpp lib/tinyxml2.o`
@@ -30,7 +30,8 @@ The other executables are fully static and provided as binaries in all versions.
   - `g++ -static -std=c++11 -O3 -funroll-loops -o pkxml pkxml.cpp lib/tinyxml2.o`
 + diexml:
   - `g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o`
-  - `g++ -static -std=c++11 -O3 -funroll-loops -o diexml diexml.cpp lib/*.o`
+  - `g++ -static -std=c++11 -O3 -funroll-loops -I./lefdef/def/include -I./lefdef/lef/include -L./lefdef/def/lib -L./lefdef/lef/lib -o diexml diexml.cpp lib/*.o -ldef -llef`
+    To compile diexml the lefdef library (included as a submodule) must be compiled.
 
 To use the GPU powered solvers, simply add the -GPU option when running the heat simulator executable.
 
