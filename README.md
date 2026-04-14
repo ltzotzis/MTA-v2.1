@@ -31,6 +31,7 @@ The other executables are fully static and provided as binaries in all versions.
 + diexml:
   - `g++ -static -std=c++11 -O3 -funroll-loops -c tinyxml2.cpp -o lib/tinyxml2.o`
   - `g++ -static -std=c++11 -O3 -funroll-loops -I./lefdef/def/include -I./lefdef/lef/include -L./lefdef/def/lib -L./lefdef/lef/lib -o diexml diexml.cpp lib/*.o -ldef -llef`
+    
     To compile diexml the lefdef library (included as a submodule) must be compiled.
 
 To use the GPU powered solvers, simply add the -GPU option when running the heat simulator executable.
